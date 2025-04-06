@@ -1,2 +1,112 @@
-temp
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coach Abero Fan Page</title>
+  <link rel="icon" href="https://coachabero.lol/mainimg.jpg" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      background: #0a0a0a;
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      gap: 20px;
+    }
+    .nav-button {
+      padding: 12px 24px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav-button:hover {
+      background: linear-gradient(to right, #654ea3, #eaafc8);
+      color: white;
+    }
+    .main {
+      padding-top: 140px;
+      padding-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      font-size: 20px;
+      max-width: 700px;
+      color: #ccc;
+      padding: 0 20px;
+    }
+    .subtext {
+      font-size: 14px;
+      color: #888;
+      margin-top: 10px;
+    }
+    .hidden-img {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .nav-button {
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="https://coachabero.lol/backgrounds" class="nav-button" target="_blank">Backgrounds</a>
+    <a href="https://coachabero.lol/upload" class="nav-button" target="_blank">Upload</a>
+  </div>
+
+  <div class="main">
+    <h1>Coach Abero fan page</h1>
+    <p>Welcome to the ultimate fan experience for the legend himself: Coach Abero. Where admiration meets obsession 😎</p>
+    <div class="subtext">made by a dumb freshman</div>
+  </div>
+
+  <img src="https://coachabero.lol/mainimg.jpeg" alt="Coach Abero" class="hidden-img">
+</body>
+</html>
