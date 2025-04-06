@@ -29,7 +29,7 @@
     }
     .navbar {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       align-items: center;
       padding: 20px 40px;
       background: rgba(255, 255, 255, 0.05);
@@ -40,7 +40,10 @@
       top: 0;
       left: 0;
       z-index: 2;
-      gap: 20px;
+    }
+    .navbar img {
+      height: 40px;
+      width: auto;
     }
     .nav-button {
       padding: 12px 24px;
@@ -100,17 +103,19 @@
   </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="https://coachabero.lol/" class="nav-button">Home</a>
-        <a href="https://coachabero.lol/backgrounds" class="nav-button">Backgrounds</a>
-      </div>
-      
+  <div class="navbar">
+    <img src="https://coachabero.lol/mainimg.jpg" alt="Coach Abero Logo">
+
+    <div>
+      <a href="https://coachabero.lol/" class="nav-button">Home</a>
+      <a href="https://coachabero.lol/backgrounds" class="nav-button">Backgrounds</a>
+    </div>
+  </div>
 
   <div class="main">
     <h1>Coach Abero fan page</h1>
     <p>official fan site for coach abero. you can find backgrounds for the computers in his room here.</p>
     <div class="subtext">made by a dumb freshman</div>
   </div>
-
 </body>
 </html>
